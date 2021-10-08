@@ -1,4 +1,4 @@
-# Attention!!! This repo is modify for personal using, which can build and install on Window 10
+# Attention!!! This repo is modify for personal using, which can be build and installed on Window 10
 
 The guide for build can be found [here](https://winterwindwang.github.io/2021/07/22/nerual_rendered_build.html)
 
