@@ -5,10 +5,14 @@
 #include <cuda_runtime.h>
 
 // for the older gpus atomicAdd with double arguments does not exist
-#if  __CUDA_ARCH__ < 600 and defined(__CUDA_ARCH__)
+#if  __CUDA_ARCH__ >= 600 || !defined(__CUDA_ARCH__)
+
+#else
 static __inline__ __device__ double atomicAdd(double* address, double val) {
     unsigned long long int* address_as_ull = (unsigned long long int*)address;
     unsigned long long int old = *address_as_ull, assumed;
+	if (val==0.0)
+      return __longlong_as_double(old);
     do {
         assumed = old;
         old = atomicCAS(address_as_ull, assumed,
@@ -17,6 +21,7 @@ static __inline__ __device__ double atomicAdd(double* address, double val) {
     } while (assumed != old);
     return __longlong_as_double(old);
 }
+
 #endif
 
 namespace{
