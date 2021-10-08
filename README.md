@@ -1,3 +1,7 @@
+# Attention!!! This repo is modify for personal using, which can build and install on Window 10
+
+The guide for build can be found [here](https://winterwindwang.github.io/2021/07/22/nerual_rendered_build.html)
+
 # Neural 3D Mesh Renderer (CVPR 2018)
 
 This repo contains a PyTorch implementation of the paper [Neural 3D Mesh Renderer](http://hiroharu-kato.com/projects_en/neural_renderer.html) by Hiroharu Kato, Yoshitaka Ushiku, and Tatsuya Harada.
