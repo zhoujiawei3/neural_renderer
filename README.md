@@ -1,4 +1,4 @@
-# Attention!!! This repo is modify for personal using, which can be build and installed on Window 10
+# E2E-Neural Renderer 
 
 The guide for build can be found [here](https://winterwindwang.github.io/2021/07/22/nerual_rendered_build.html)
 
