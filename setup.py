@@ -24,6 +24,10 @@ ext_modules=[
         'neural_renderer/cuda/create_texture_image_cuda.cpp',
         'neural_renderer/cuda/create_texture_image_cuda_kernel.cu',
         ]),
+    CUDAExtension('neural_renderer.cuda.load_textures_totalUV', [
+        'neural_renderer/cuda/load_textures_totalUV_cuda.cpp',
+        'neural_renderer/cuda/load_textures_totalUV_cuda_kernel.cu',
+        ]),
     ]
 
 setup(

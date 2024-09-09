@@ -1,6 +1,7 @@
 from .get_points_from_angles import get_points_from_angles
 from .lighting import lighting
 from .load_obj import load_obj
+from .load_obj_differentiable_new import load_obj_totalUV
 from .look import look
 from .look_at import look_at
 from .mesh import Mesh
