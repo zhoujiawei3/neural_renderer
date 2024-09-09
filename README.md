@@ -1,6 +1,6 @@
 # E2E-Neural Renderer 
 
-The guide for build can be found [here](https://winterwindwang.github.io/2021/07/22/nerual_rendered_build.html)
+The guide for build can be found [here](https://wood-amphibian-4fc.notion.site/Neural_renderer-9444ef6627c34233ad320f456085f7fb?pvs=4)
 
 # Neural 3D Mesh Renderer (CVPR 2018)
 
